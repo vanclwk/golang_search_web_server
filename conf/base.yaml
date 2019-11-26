@@ -1,0 +1,22 @@
+# configure the service info
+service:
+  port: 9191
+  mode: Product
+  logging:
+    level: Info
+    serviceLog: logs/service.log
+  app_config:
+    app_info_key: app_config
+
+# configure the database info
+database:
+  elasticsearch:
+    url: http://127.0.0.1:9200
+    username: elastic
+    password: elastic123
+
+  redis:
+    url: 127.0.0.1:6379
+    username: admin
+    password: admin123
+    database: 0

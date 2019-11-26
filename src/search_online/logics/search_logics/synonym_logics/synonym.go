@@ -1,0 +1,1 @@
+package synonym_logics
